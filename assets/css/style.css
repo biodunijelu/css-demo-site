@@ -150,3 +150,38 @@ a {
 }
 
 /* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .header div {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .header div ul {
+        margin-top: 10px;
+    }
+
+    .benefits {
+        padding: 5px;
+    }
+
+    .content,
+    .benefits {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        padding: 10px;
+    }
+
+    .hero {
+        max-width: 100%;
+        height: auto;    }
+}
